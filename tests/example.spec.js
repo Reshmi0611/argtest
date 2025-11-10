@@ -1,5 +1,6 @@
 // @ts-check
 import { test, expect } from '@playwright/test';
+import { argosScreenshot } from "@argos-ci/playwright";
 
 // test('has title', async ({ page }) => {
 //   await page.goto('https://playwright.dev/');
@@ -20,5 +21,5 @@ import { test, expect } from '@playwright/test';
 
 test('get started link1', async ({ page }) => {
   await page.goto('https://reshmi0611.github.io/simple-website-template1/');
-  console.log("print");
+  await argosScreenshot(page, "homepage");
 });
