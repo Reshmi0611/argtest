@@ -22,4 +22,5 @@ import { argosScreenshot } from "@argos-ci/playwright";
 test('get started link1', async ({ page }) => {
   await page.goto('https://reshmi0611.github.io/simple-website-template1/');
   await argosScreenshot(page, "homepage");
+  await argosScreenshot(page, "homepage1");
 });
