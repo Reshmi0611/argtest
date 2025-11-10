@@ -19,6 +19,6 @@ import { test, expect } from '@playwright/test';
 // });
 
 test('get started link1', async ({ page }) => {
-  await page.goto('http://localhost:3000/index.html');
+  await page.goto('https://reshmi0611.github.io/simple-website-template1/');
   console.log("print");
 });
