@@ -19,6 +19,6 @@ import { test, expect } from '@playwright/test';
 // });
 
 test('get started link1', async ({ page }) => {
-  await page.goto('http://127.0.0.1:5500/lgtest/index.html');
+  await page.goto('http://localhost:3000/index.html');
   console.log("print");
 });
