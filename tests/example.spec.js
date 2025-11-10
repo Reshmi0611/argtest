@@ -22,4 +22,5 @@ test('get started link1', async ({ page }) => {
   await page.goto('http://127.0.0.1:5500/lgtest/index.html');
   console.log("print");
   console.log("test");
+  console.log("check");
 });
